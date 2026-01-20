@@ -6,6 +6,7 @@ services:
     ports:
       - "3000:3000"
     volumes:
+      - ./haproxy/combined.pem:/usr/local/etc/haproxy/combined.pem:ro
       - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
     depends_on:
       - node-app-1

@@ -1,1 +1,11 @@
 node/node_modules
+haproxy
+certificate.cert
+private.key
+observability/_state
+observability/serve
+observability/snapshot_cache
+observability/elastic
+observability/node.lock
+observability/nodes
+node/node_modules
